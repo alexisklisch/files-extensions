@@ -1,9 +1,12 @@
 {
   "name": "files-extensions",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Find out how many files you have taking into account each file extension.",
   "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "files-extensions": "./bin/files-extensions.js"
+  },
   "scripts": {
     "start": "node src/index.js"
   },
