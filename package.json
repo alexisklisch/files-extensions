@@ -1,13 +1,26 @@
 {
   "name": "files-extensions",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Find out how many files you have taking into account each file extension.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "start": "node src/index.js"
   },
-  "keywords": ["charts", "extensions", "javascript"],
-  "author": "",
-  "license": "MIT"
+  "keywords": [
+    "charts",
+    "extensions",
+    "javascript"
+  ],
+  "author": "Alexis Klisch <unbosquense@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cli-pie": "2.4.2"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
 }
