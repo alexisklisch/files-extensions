@@ -1,6 +1,6 @@
 {
   "name": "files-extensions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find out how many files you have taking into account each file extension.",
   "main": "src/index.js",
   "type": "module",
